@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **rezervacni_system**
 
-- 🌱 I’m currently learning **React**
+- 🌱 I’m currently learning **Mobile App Devolopment**
 
 - 📫 How to reach me **honzawaldhaus@gmail.com**
 
