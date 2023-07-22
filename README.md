@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Honza</h1>
 <h3 align="center">A fullstack devoloper from Czech Republic</h3>
 
-- 🔭 I’m currently working on **rezervacni_system**
+- 🔭 I’m currently working on **lama-taxi**
 
 - 🌱 I’m currently learning **Mobile App Devolopment**
 
