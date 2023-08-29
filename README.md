@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Honza</h1>
 <h3 align="center">A fullstack devoloper from Czech Republic</h3>
 
-- 🔭 I’m currently working on **lama-taxi**
+- 🔭 I’m currently working on **restauracni-system**
 
-- 🌱 I’m currently learning **Mobile App Devolopment**
+- 🌱 I’m currently learning **React**
 
 - 📫 How to reach me **honzawaldhaus@gmail.com**
 
