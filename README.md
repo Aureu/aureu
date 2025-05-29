@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Honza</h1>
 <h3 align="center">A fullstack devoloper from Czech Republic</h3>
 
-- 🔭 I’m currently working on **Crudex personal web**
+- 🔭 I’m currently working on **Personal work tool**
 
 - 🌱 I’m currently learning **React**
 
