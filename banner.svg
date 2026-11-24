@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">Jan Waldhaus — Full-Stack Developer</title>
+  <desc id="d">Axonometric drawing of a web page taken apart into four connected layers: data, logic, automation and interface.</desc>
+  <style>
+    .sans { font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; letter-spacing: .14em; }
+    .ink { fill: #eceae4; } .muted { fill: #99938a; } .gold { fill: #e9c46a; }
+    .line { stroke: #48433a; fill: none; }
+    .plate { fill: #12110f; stroke: #e9c46a; stroke-width: 1.5; stroke-linejoin: round; }
+    .layer { animation: float 6s ease-in-out infinite; }
+    .l2 { animation-delay: -1.5s; } .l3 { animation-delay: -3s; } .l4 { animation-delay: -4.5s; }
+    .pulse { animation: travel 4s cubic-bezier(.65,0,.35,1) infinite; }
+    .in { animation: rise .9s cubic-bezier(.16,1,.3,1) both; }
+    .d1 { animation-delay: .15s; } .d2 { animation-delay: .3s; } .d3 { animation-delay: .45s; }
+    @keyframes float { 0%, 100% { transform: translateY(-5px); } 50% { transform: translateY(5px); } }
+    @keyframes travel { 0% { transform: translateY(0); opacity: 0; } 15%, 85% { opacity: 1; } 100% { transform: translateY(180px); opacity: 0; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .layer, .pulse, .in { animation: none; } }
+  </style>
+
+  <rect width="1200" height="360" rx="14" fill="#0a0908"/>
+  <rect x="18.500" y="18.500" width="1163" height="323" rx="6" class="line"/>
+
+  <!-- sheet labels -->
+  <text x="56" y="62" class="mono muted" font-size="12">AUREU · SHEET 01 · INTRO</text>
+  <text x="56" y="312" class="mono muted" font-size="12">CZECH REPUBLIC</text>
+  <path d="M56 78H620" class="line"/>
+
+  <!-- name -->
+  <text x="54" y="176" class="sans ink in" font-size="76" font-weight="700" letter-spacing="-2">Jan Waldhaus</text>
+  <text x="56" y="222" class="sans gold in d1" font-size="26" font-weight="600">Full-Stack Developer</text>
+  <text x="56" y="262" class="mono muted in d2" font-size="13">WEB · APPS · AI &amp; AUTOMATION</text>
+
+  <!-- exploded page: four layers, bottom drawn first -->
+  <g transform="translate(930 180) scale(.86) translate(-930 -180)">
+  <path d="M930 90V270" stroke="#c9972b" stroke-dasharray="3 6"/>
+  <g class="layer l4">
+    <path class="plate" d="M780 270 930 195 1080 270 930 345Z"/>
+    <path d="M768 270H780" class="line"/><text x="760" y="274" text-anchor="end" class="mono muted" font-size="13">DATA</text>
+  </g>
+  <g class="layer l3">
+    <path class="plate" d="M780 210 930 135 1080 210 930 285Z"/>
+    <path d="M768 210H780" class="line"/><text x="760" y="214" text-anchor="end" class="mono muted" font-size="13">LOGIC</text>
+  </g>
+  <g class="layer l2">
+    <path class="plate" d="M780 150 930 75 1080 150 930 225Z"/>
+    <path d="M768 150H780" class="line"/><text x="760" y="154" text-anchor="end" class="mono muted" font-size="13">AUTOMATION</text>
+  </g>
+  <g class="layer">
+    <path class="plate" d="M780 90 930 15 1080 90 930 165Z" fill-opacity="1"/>
+    <path d="M780 90 930 15 1080 90 930 165Z" fill="#e9c46a" fill-opacity=".14"/>
+    <!-- page wireframe on the top plate -->
+    <path d="M830 90 930 40 M850 100 950 50 M930 140 1030 90 M880 115 980 65" stroke="#e9c46a" stroke-opacity=".55"/>
+    <path d="M768 90H780" class="line"/><text x="760" y="94" text-anchor="end" class="mono gold" font-size="13">INTERFACE</text>
+  </g>
+  <circle class="pulse" cx="930" cy="90" r="3.500" fill="#e9c46a"/>
+  </g>
+</svg>
